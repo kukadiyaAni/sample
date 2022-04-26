@@ -12,6 +12,6 @@ jobs:
       with:
         node-version: '12.x'
     - name: Install dependencies
-      run: yarn
+      run: npm install
     - name: Run unit tests
-      run: yarn run test
+      run: npm test
