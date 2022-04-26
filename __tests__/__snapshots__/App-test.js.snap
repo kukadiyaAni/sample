@@ -293,7 +293,7 @@ exports[`renders correctly 1`] = `
               ]
             }
           >
-            Read the docs to discover what to do next:
+            Read the docs to discover what to do next
           </Text>
         </View>
         <View
