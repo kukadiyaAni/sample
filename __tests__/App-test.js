@@ -10,5 +10,6 @@ import App from '../App';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<App />);
+  let rendered = renderer.create(<App />).toJSON()
+  expect(rendered).toMatchSnapshot()
 });
