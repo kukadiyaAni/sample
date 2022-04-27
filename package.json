@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "17.0.2",
@@ -26,7 +27,9 @@
     "react-test-renderer": "17.0.2"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "husky": {
     "hooks": {
