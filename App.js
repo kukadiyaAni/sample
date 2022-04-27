@@ -47,6 +47,7 @@ const Section = ({children, title}): Node => {
           },
         ]}>
         {children}
+        
       </Text>
     </View>
   );
