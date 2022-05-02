@@ -293,7 +293,7 @@ exports[`renders correctly 1`] = `
               ]
             }
           >
-            Read the docs to discover what to do next
+            Read the docs to discover what to do next]
           </Text>
         </View>
         <View
@@ -828,5 +828,23 @@ exports[`renders correctly 1`] = `
       </View>
     </View>
   </RCTScrollView>
+  <TextInput />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  />
 </RCTSafeAreaView>
 `;

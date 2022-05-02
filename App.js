@@ -16,6 +16,8 @@ import {
   Text,
   useColorScheme,
   View,
+  TextInput,
+  TouchableOpacity
 } from 'react-native';
 
 import {
@@ -81,11 +83,15 @@ const App: () => Node = () => {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
-            Read the docs to discover what to do next
+            Read the docs to discover what to do next]
           </Section>
           <LearnMoreLinks />
         </View>
       </ScrollView>
+      <TextInput />
+      <TouchableOpacity onPress={() => {console.log('test');}}>
+
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };
