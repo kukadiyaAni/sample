@@ -11,5 +11,6 @@ import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
   let snapshot= renderer.create(<App />).toJSON()
-  expect(true).toBe(true)
+  // expect(true).toBe(true)
+  expect(snapshot).toMatchSnapshot()
 });
