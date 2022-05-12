@@ -49,6 +49,7 @@ const Section = ({children, title}): Node => {
           },
         ]}>
         {children}
+        
       </Text>
     </View>
   );
@@ -74,7 +75,7 @@ const App: () => Node = () => {
           }}>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits
+            screen and then come back to see your edits.....00
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
